@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Iceland",
+    "image": "../assets/images/iceland2.jpg",
+    "alt": "Iceland",
+    "button": "View Destination"
+  },
+  {
+    "name": "Thailand",
+    "image": "../assets/images/thailand.jpg",
+    "alt": "Thailand",
+    "button": "View Destination"
+  },
+  {
+    "name": "Switzerland",
+    "image": "../assets/images/switzerland.jpg",
+    "alt": "Switzerland",
+    "button": "View Destination"
+  },
+  {
+    "name": "Bali",
+    "image": "../assets/images/bali.jpg",
+    "alt": "Bali",
+    "button": "View Destination"
+  }
+]
