@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import Img from "gatsby-image"
 import { FaRegLightbulb } from "react-icons/fa"
-import { IoMdCheckmarkCircleOutline } from "react-icons/Io"
+import { IoMdCheckmarkCircleOutline } from "react-icons/io"
 import { useStaticQuery, graphql } from "gatsby"
 
 export const Testimonials = () => {

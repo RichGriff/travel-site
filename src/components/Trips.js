@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { Button } from "../components/Button"
-import { ImLocation } from "react-icons/Im"
+import { ImLocation } from "react-icons/im"
 
 function Trips({ heading }) {
   const data = useStaticQuery(graphql`
