@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import { GiEarthAmerica } from "react-icons/Gi"
+import { GiEarthAmerica } from "react-icons/gi"
 
 const Stats = () => {
   const StatsData = [
