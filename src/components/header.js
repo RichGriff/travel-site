@@ -5,9 +5,11 @@ import { FaBars } from "react-icons/fa"
 import { MenuData } from "../data/MenuData"
 import { Button } from "./Button"
 
-const Header = ({ toggle }) => {
+const Header = ({ toggle, dark }) => {
+  console.log(dark)
+
   return (
-    <Nav>
+    <Nav dark={dark}>
       <NavLink to="/">Explore</NavLink>
       <MobileIcon onClick={toggle}>
         <Bars />
@@ -31,7 +33,7 @@ const Header = ({ toggle }) => {
 export default Header
 
 const Nav = styled.nav`
-  background: transparent;
+  background: ${({ dark }) => (dark ? "#0d0d0d" : "transparent")};
   height: 80px;
   display: flex;
   justify-content: space-between;

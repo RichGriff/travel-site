@@ -4,7 +4,7 @@ import Header from "./header"
 import Sidebar from "./Sidebar"
 import { GlobalStyles } from "./styles/GlobalStyles"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, dark }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggle = () => {
@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
     <>
       <GlobalStyles />
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Header toggle={toggle} />
+      <Header toggle={toggle} dark={dark} />
       <main>{children}</main>
       <Footer />
     </>
