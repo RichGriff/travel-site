@@ -101,7 +101,7 @@ const HeroItems = styled.div`
 `
 
 const HeroHeading = styled.h1`
-  font-size: clamp(1.5rem, 6vw, 4rem);
+  font-size: clamp(2.2rem, 6vw, 4rem);
   margin-bottom: 1.5rem;
   letter-spacing: 3px;
   font-weight: bold;
@@ -109,7 +109,7 @@ const HeroHeading = styled.h1`
 `
 
 const HeroDesc = styled.p`
-  font-size: clamp(1rem, 3vw, 3rem);
+  font-size: clamp(1.5rem, 3vw, 3rem);
   margin-bottom: 2rem;
   font-weight: 400;
 `

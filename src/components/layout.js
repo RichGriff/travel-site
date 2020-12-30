@@ -1,13 +1,21 @@
-import React from "react"
+import React, { useState } from "react"
 import Footer from "./Footer"
 import Header from "./header"
+import Sidebar from "./Sidebar"
 import { GlobalStyles } from "./styles/GlobalStyles"
 
 const Layout = ({ children }) => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
     <>
       <GlobalStyles />
-      <Header />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Header toggle={toggle} />
       <main>{children}</main>
       <Footer />
     </>
