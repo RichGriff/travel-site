@@ -59,7 +59,7 @@ const About = () => {
                 Why not check out our destinations below and find your next
                 adventure!
               </p>
-              <Button primary="true" round="true" to="/destinations">
+              <Button primary="true" round="true" to="/trips">
                 View Destinations
               </Button>
             </ContentDescription>
